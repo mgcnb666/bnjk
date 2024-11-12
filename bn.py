@@ -18,7 +18,7 @@ RECIPIENT_EMAIL = ''  # 替换为收件人邮箱地址
 processed_article_ids = set()
 
 # 监控间隔（秒）
-monitor_interval = 3  # 每60秒检查一次
+monitor_interval = 3  # 每3秒检查一次
 
 # 打印带有时间戳的消息
 def log_with_time(message):
